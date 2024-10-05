@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Button styles */
+    #toTopBtn {
+      display: none; /* Initially hidden */
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 99;
+      background-color: #555;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 18px;
+    }
+
+    #toTopBtn:hover {
+      background-color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <div style="height: 1500px;">
+    <h1>Scroll down to see the button</h1>
+    <p>This is a long page with a lot of content to scroll.</p>
+  </div>
+
+  <!-- Back to Top Button -->
+  <button id="toTopBtn" onclick="scrollToTop()">↑ Back to Top</button>
+
+  <script src="js/scroll-up.js"></script>
+
+</body>
+</html>
