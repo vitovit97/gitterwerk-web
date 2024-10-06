@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>1030 nm - Gitterwerk</title>
+    <link rel="icon" href="images/Logo-head_prev_ui.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="css/general.css"> 
+    <link rel="stylesheet" href="css/header.css"> 
+  <head>
+
+  <body>
+    <header id="Gitterwerk-header-placeholder">
+      <script>
+        // JavaScript to load header.html into the placeholder
+        document.addEventListener("DOMContentLoaded", function() {
+            fetch("header.html")
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById("Gitterwerk-header-placeholder").innerHTML = data;
+                });
+        });
+    </script>
+    </header>
+
+  </body>
+</html>

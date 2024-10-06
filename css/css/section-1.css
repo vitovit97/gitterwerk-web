@@ -1,0 +1,59 @@
+#Gitterwerk-section-1{
+  display:flex;
+  flex-direction:row;
+  padding-top:133px;
+  height:1200px;
+  position:relative;
+}
+
+#Sec-1-left-container{
+  flex:1;
+}
+
+#Sec-1-text-1 {
+  background-color:rgba(255,255,255,1);
+  font-size:25px;
+  line-height:30px;
+  font-weight:bold;
+  color:#9c251d;
+  word-wrap:break-word;
+  overflow:hidden;
+  padding: 220px 0px 0px 400px;
+}
+
+#Sec-1-text-2 {
+  font-family:Verdana;
+  font-size:35px;
+  line-height:40px;
+  color:gray;
+  text-align:left;
+  word-wrap:break-word;
+  overflow:hidden;
+  padding: 20px 50px 0px 400px;
+}
+
+#Get-Gratings-Button {
+  font-family:Verdana;
+  font-weight:bold;
+  font-size:12px;
+  height:50px;
+  line-height:30px;
+  color:white;
+  background-color:#9c251d;
+  cursor:pointer;
+  border:0px;
+  border-radius:5px;
+  margin: 40px 0px 0px 400px;
+  padding:0 15px 0 15px;
+}
+
+#Sec-1-right-container{
+  flex:1;
+  background-image:url('HomepageRK.jpg');
+  z-index:-1;
+  background-attachment: fixed; /* Creates the parallax effect */
+  background-position: right;
+  background-size:contain;
+  background-repeat: no-repeat;
+  margin: 0px 0px 0px 0px;
+}
